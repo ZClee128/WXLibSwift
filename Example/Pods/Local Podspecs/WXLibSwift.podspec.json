@@ -1,0 +1,28 @@
+{
+  "name": "WXLibSwift",
+  "version": "0.1.0",
+  "summary": "A short description of WXLibSwift.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/yxd_lzc/WXLibSwift",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "yxd_lzc": "876231865@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/yxd_lzc/WXLibSwift.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "13.0"
+  },
+  "source_files": "WXLibSwift/Classes/**/*",
+  "public_header_files": "WXLibSwift/Classes/**/*.h",
+  "dependencies": {
+    "WechatOpenSDK-XCFramework": [
+
+    ]
+  }
+}

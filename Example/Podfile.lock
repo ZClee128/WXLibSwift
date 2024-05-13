@@ -1,0 +1,23 @@
+PODS:
+  - WechatOpenSDK-XCFramework (2.0.4)
+  - WXLibSwift (0.1.0):
+    - WechatOpenSDK-XCFramework
+
+DEPENDENCIES:
+  - WXLibSwift (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - WechatOpenSDK-XCFramework
+
+EXTERNAL SOURCES:
+  WXLibSwift:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  WechatOpenSDK-XCFramework: 36fb2bea0754266c17184adf4963d7e6ff98b69f
+  WXLibSwift: 329a8e604fc2f77097e740a471074c6ee237a30b
+
+PODFILE CHECKSUM: 41bd1401e34f053a54ab462e08b58bf08239ace2
+
+COCOAPODS: 1.15.2

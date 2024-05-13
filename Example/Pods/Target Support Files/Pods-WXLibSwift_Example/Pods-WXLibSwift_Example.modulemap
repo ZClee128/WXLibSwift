@@ -1,0 +1,6 @@
+framework module Pods_WXLibSwift_Example {
+  umbrella header "Pods-WXLibSwift_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module WXLibSwift {
+  umbrella header "WXLibSwift-umbrella.h"
+
+  export *
+  module * { export * }
+}

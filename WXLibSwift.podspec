@@ -18,17 +18,17 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  WechatOpenSDK-XCFramework封装，方便swift调用
                        DESC
 
-  s.homepage         = 'https://github.com/yxd_lzc/WXLibSwift'
+  s.homepage         = 'https://github.com/ZClee128/WXLibSwift.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'yxd_lzc' => '876231865@qq.com' }
-  s.source           = { :git => 'https://github.com/yxd_lzc/WXLibSwift.git', :tag => s.version.to_s }
+  s.author           = { 'lzc' => '876231865@qq.com' }
+  s.source           = { :git => 'https://github.com/ZClee128/WXLibSwift.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '13.0'
 
   s.source_files = 'WXLibSwift/Classes/**/*'
   
@@ -36,7 +36,7 @@ TODO: Add long description of the pod here.
   #   'WXLibSwift' => ['WXLibSwift/Assets/*.png']
   # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
+   s.public_header_files = 'WXLibSwift/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+   s.dependency 'WechatOpenSDK-XCFramework'
 end
