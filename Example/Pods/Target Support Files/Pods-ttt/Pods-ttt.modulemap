@@ -1,0 +1,6 @@
+framework module Pods_ttt {
+  umbrella header "Pods-ttt-umbrella.h"
+
+  export *
+  module * { export * }
+}

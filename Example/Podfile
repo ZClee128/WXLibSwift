@@ -3,11 +3,15 @@ use_frameworks!
 platform :ios, '10.0'
 
 target 'WXLibSwift_Example' do
+#  pod 'WXLibSwift', :path => '../'
+
+#  target 'WXLibSwift_Tests' do
+#    inherit! :search_paths
+#
+#    
+#  end
+end
+
+target 'ttt' do
   pod 'WXLibSwift', :path => '../'
-
-  target 'WXLibSwift_Tests' do
-    inherit! :search_paths
-
-    
-  end
 end

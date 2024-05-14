@@ -7,14 +7,14 @@
 //
 
 import UIKit
-import WXLibSwift
+import ttt
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        WXApi.registerApp("", universalLink: "")
+        ttt()
     }
 
     override func didReceiveMemoryWarning() {

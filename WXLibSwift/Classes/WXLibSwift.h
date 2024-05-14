@@ -10,4 +10,4 @@
 
 
 #endif /* WXLibSwift_h */
-#import <WXApi.h>
+

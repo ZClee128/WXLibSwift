@@ -10,6 +10,9 @@
 #endif
 #endif
 
+#import "WechatAuthSDK.h"
+#import "WXApi.h"
+#import "WXApiObject.h"
 #import "WXLibSwift.h"
 
 FOUNDATION_EXPORT double WXLibSwiftVersionNumber;

@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_WXLibSwift_TestsVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_WXLibSwift_TestsVersionString[];
+FOUNDATION_EXPORT double Pods_tttVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_tttVersionString[];
 
