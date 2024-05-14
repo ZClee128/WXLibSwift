@@ -4,12 +4,14 @@
 [![Version](https://img.shields.io/cocoapods/v/WXLibSwift.svg?style=flat)](https://cocoapods.org/pods/WXLibSwift)
 [![License](https://img.shields.io/cocoapods/l/WXLibSwift.svg?style=flat)](https://cocoapods.org/pods/WXLibSwift)
 [![Platform](https://img.shields.io/cocoapods/p/WXLibSwift.svg?style=flat)](https://cocoapods.org/pods/WXLibSwift)
-WechatOpenSDK-XCFramework灏佽锛屾柟渚縮wift璋冪敤
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-## Requirements
+## Describe
+### WechatOpenSDK-XCFramework封装，方便swift调用
+### 微信WechatOpenSDK-XCFramework 版本号为 2.0.4
 
 ## Installation
 
