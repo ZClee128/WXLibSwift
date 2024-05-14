@@ -4,7 +4,7 @@
 [![Version](https://img.shields.io/cocoapods/v/WXLibSwift.svg?style=flat)](https://cocoapods.org/pods/WXLibSwift)
 [![License](https://img.shields.io/cocoapods/l/WXLibSwift.svg?style=flat)](https://cocoapods.org/pods/WXLibSwift)
 [![Platform](https://img.shields.io/cocoapods/p/WXLibSwift.svg?style=flat)](https://cocoapods.org/pods/WXLibSwift)
-
+WechatOpenSDK-XCFramework封装，方便swift调用
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
@@ -22,7 +22,7 @@ pod 'WXLibSwift'
 
 ## Author
 
-yxd_lzc, 876231865@qq.com
+lzc, 876231865@qq.com
 
 ## License
 
