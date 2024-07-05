@@ -1,6 +1,6 @@
 {
   "name": "WXLibSwift",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "summary": "A short description of WXLibSwift.",
   "description": "WechatOpenSDK-XCFramework封装，方便swift调用",
   "homepage": "https://github.com/ZClee128/WXLibSwift.git",
@@ -13,14 +13,13 @@
   },
   "source": {
     "git": "https://github.com/ZClee128/WXLibSwift.git",
-    "tag": "0.1.1"
+    "tag": "0.1.2"
   },
   "platforms": {
     "ios": "13.0"
   },
   "requires_arc": true,
   "static_framework": true,
-  "vendored_frameworks": "WXLibSwift/Frameworks/WechatOpenSDK-XCFramework.xcframework",
   "frameworks": [
     "Security",
     "CoreGraphics",
@@ -33,6 +32,30 @@
   "pod_target_xcconfig": {
     "OTHER_LDFLAGS": "-all_load"
   },
-  "source_files": "WXLibSwift/Classes/**/*",
-  "public_header_files": "WXLibSwift/Classes/**/*.h"
+  "default_subspecs": "Pay",
+  "subspecs": [
+    {
+      "name": "Core",
+      "source_files": "WXLibSwift/Classes/**/*",
+      "public_header_files": "WXLibSwift/Classes/**/*.h"
+    },
+    {
+      "name": "Pay",
+      "dependencies": {
+        "WXLibSwift/Core": [
+
+        ]
+      },
+      "vendored_frameworks": "WXLibSwift/Frameworks/Pay/WechatOpenSDK-XCFramework.xcframework"
+    },
+    {
+      "name": "NoPay",
+      "dependencies": {
+        "WXLibSwift/Core": [
+
+        ]
+      },
+      "vendored_frameworks": "WXLibSwift/Frameworks/NoPay/WechatOpenSDK-XCFramework.xcframework"
+    }
+  ]
 }

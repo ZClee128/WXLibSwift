@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'WXLibSwift'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'A short description of WXLibSwift.'
 
 # This description is used to generate tags and improve search results.
@@ -31,16 +31,23 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '13.0'
   s.requires_arc = true
   s.static_framework = true
-  s.vendored_frameworks = 'WXLibSwift/Frameworks/WechatOpenSDK-XCFramework.xcframework'
   s.frameworks  = 'Security', 'CoreGraphics', 'WebKit'
   s.libraries = 'z', 'c++'
   s.pod_target_xcconfig = { 'OTHER_LDFLAGS' => '-all_load' }
-  s.source_files = 'WXLibSwift/Classes/**/*'
-  # s.resource_bundles = {
-  #   'WXLibSwift' => ['WXLibSwift/Assets/*.png']
-  # }
+  s.default_subspec = 'Pay'
+  
+  s.subspec 'Core' do |co|
+    co.source_files = 'WXLibSwift/Classes/**/*'
+    co.public_header_files = 'WXLibSwift/Classes/**/*.h'
+  end
+  
+  s.subspec 'Pay' do |pay|
+    pay.dependency 'WXLibSwift/Core'
+    pay.vendored_frameworks = 'WXLibSwift/Frameworks/Pay/WechatOpenSDK-XCFramework.xcframework'
+  end
 
-   s.public_header_files = 'WXLibSwift/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-#   s.dependency 'WechatOpenSDK-XCFramework'
+  s.subspec 'NoPay' do |noPay|
+    noPay.dependency 'WXLibSwift/Core'
+    noPay.vendored_frameworks = 'WXLibSwift/Frameworks/NoPay/WechatOpenSDK-XCFramework.xcframework'
+  end
 end

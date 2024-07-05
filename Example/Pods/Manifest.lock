@@ -1,16 +1,18 @@
 PODS:
-  - WXLibSwift (0.1.1)
+  - WXLibSwift/Core (0.1.2)
+  - WXLibSwift/Pay (0.1.2):
+    - WXLibSwift/Core
 
 DEPENDENCIES:
-  - WXLibSwift (from `../`)
+  - WXLibSwift/Pay (from `../`)
 
 EXTERNAL SOURCES:
   WXLibSwift:
     :path: "../"
 
 SPEC CHECKSUMS:
-  WXLibSwift: 013cbc69425264860becbc0ae3b34bbca81dbc87
+  WXLibSwift: 0ac099de84d1eff33e4bdd326f9f7aba4e966ca9
 
-PODFILE CHECKSUM: 5ec54a5e18b2ab1513cf3c5777bb1bc047b48884
+PODFILE CHECKSUM: 5949ecceffa20d26faae2227bdde60060ac5e7de
 
 COCOAPODS: 1.15.2

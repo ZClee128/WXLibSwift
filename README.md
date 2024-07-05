@@ -10,6 +10,11 @@
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Describe
+### 更新 0.1.2
+```
+新增含支付功能和不含支付功能sdk包
+WechatOpenSDK-XCFramework 版本 2.0.4
+```
 ### WechatOpenSDK-XCFramework封装，方便swift调用
 ### 微信WechatOpenSDK-XCFramework 版本号为 2.0.4
 
@@ -19,7 +24,10 @@ WXLibSwift is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
+// 默认含支付功能
 pod 'WXLibSwift'
+// 不含支付功能
+pod 'WXLibSwift/NoPay'
 ```
 
 ## Author

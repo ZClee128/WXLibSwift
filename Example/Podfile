@@ -1,6 +1,6 @@
 use_frameworks!
 
-platform :ios, '10.0'
+platform :ios, '13.0'
 
 target 'WXLibSwift_Example' do
 #  pod 'WXLibSwift', :path => '../'
@@ -13,5 +13,5 @@ target 'WXLibSwift_Example' do
 end
 
 target 'ttt' do
-  pod 'WXLibSwift', :path => '../'
+  pod 'WXLibSwift/Pay', :path => '../'
 end
