@@ -7,20 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		16396ED763FAC280C88340DDFDBBC39D /* WechatAuthSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = FC7F5947C3CF7093BA10728579262524 /* WechatAuthSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		178B58C5FCE07A94BBB754B7F7D920AB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		29B227A570BDD41B31F697777F8D27CA /* Pods-WXLibSwift_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EC687E073714408424D0B6A3D83DF55 /* Pods-WXLibSwift_Example-dummy.m */; };
-		552A9212F445CA7603459609E21DF32A /* Pods-WXLibSwift_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A2531141491A4F0AB67617EF01F08206 /* Pods-WXLibSwift_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A502CAF5FA59657EAF710A2502D197CA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		BEB5B53B6ADC652E50441844C4B2C0D9 /* WXApi.h in Headers */ = {isa = PBXBuildFile; fileRef = 84EC2FD538D8723CD27042504B0F60DA /* WXApi.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BF8BF9E4FB5C90740DF27996C7AF05D4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		DE91A729F3C4A5A9BDFE997B35575703 /* Pods-ttt-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C0C2784DFA2E6502FE8736BFF4FBDFE7 /* Pods-ttt-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E00E8BDD60ACCFF67913EA173CCDDE48 /* WXApiObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 589D442FBD50A6198A2737755F857487 /* WXApiObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EBBAEE9DCA547D529B37E178A23DE32F /* WXLibSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FA97FDD710CA51A9431D1D1846ABAE2 /* WXLibSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F24FAFDE4D4B1EA0719E91ADB2C1EFAB /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 877EBF603B8B6FCC8FDFA7719914479C /* ReplaceMe.swift */; };
-		F2F8B1918067916E1E9AB6C121D381BB /* WXLibSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 91B20D61684F9392229030038B4E13E6 /* WXLibSwift-dummy.m */; };
-		F5BFB0DBD4FEFE25E8C097E4C7CB2085 /* Pods-ttt-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 500EEE9C0B99E5AA389D6B782C1A11CA /* Pods-ttt-dummy.m */; };
-		F851C83D885DC41C9BEF2F6EDE0FF454 /* WXLibSwift.h in Headers */ = {isa = PBXBuildFile; fileRef = D0E9AE07FB3F8EC1800158353A797DA4 /* WXLibSwift.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B230C68001BF43F173BABAAE414F466 /* WXLibSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FA97FDD710CA51A9431D1D1846ABAE2 /* WXLibSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		14832FE8573448450F251952AAFC8922 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 877EBF603B8B6FCC8FDFA7719914479C /* ReplaceMe.swift */; };
+		2EBB1E0FF99C8DFE7CE39ACAB50E7A19 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44815E6FF8C052B33E97861F508E0332 /* Foundation.framework */; };
+		66F6CDF5B7BEDAAD209350EEEE762B81 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44815E6FF8C052B33E97861F508E0332 /* Foundation.framework */; };
+		6D2CED835B4C0A8A596EC5F7B84405DA /* Pods-WXLibSwift_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C4B0C303D2E9A4C6A680517D23CEEA8A /* Pods-WXLibSwift_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		91B1C200884C1CAEDBBAC442BE6511C4 /* WechatAuthSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = FC7F5947C3CF7093BA10728579262524 /* WechatAuthSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A502CAF5FA59657EAF710A2502D197CA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44815E6FF8C052B33E97861F508E0332 /* Foundation.framework */; };
+		AD44173117E026DBC9A3D16CBA045AB8 /* WXLibSwift.h in Headers */ = {isa = PBXBuildFile; fileRef = D0E9AE07FB3F8EC1800158353A797DA4 /* WXLibSwift.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB33F47E575C4BBDFA22D8A426140014 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B426C2EAFF8D9D649A8E640CC5B643E1 /* Security.framework */; };
+		D1B7DCC3D8A99D2355B707F81A5CA37C /* Pods-WXLibSwift_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EF668CD4A13BCBFAD8D5D99AAFF36925 /* Pods-WXLibSwift_Example-dummy.m */; };
+		D8FF192B384D53D1A3061ACDF404C6F1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78F3E29589BBF17C182C9EDEF9097315 /* CoreGraphics.framework */; };
+		DDE172CB51E7124D13F7A9AFAFA438CE /* WXApi.h in Headers */ = {isa = PBXBuildFile; fileRef = 84EC2FD538D8723CD27042504B0F60DA /* WXApi.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE91A729F3C4A5A9BDFE997B35575703 /* Pods-ttt-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DCAF59297E6074CAC968C960B4C7066 /* Pods-ttt-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E944DFC57CE37B31406A03CF078939E0 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30E089AFEFDA29A26A12CD10246D8C85 /* WebKit.framework */; };
+		ECA43FDD8A622B96105B688D7D0BA970 /* WXLibSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 91B20D61684F9392229030038B4E13E6 /* WXLibSwift-dummy.m */; };
+		EEBFF61C08D16B4AA81FB9B6AA7E615E /* WXApiObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 589D442FBD50A6198A2737755F857487 /* WXApiObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F5BFB0DBD4FEFE25E8C097E4C7CB2085 /* Pods-ttt-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 98ECE0D6EF5616C5A546DE707B1D0BE8 /* Pods-ttt-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,46 +34,57 @@
 			remoteGlobalIDString = 3DC2BE8D75AA6A0E1D2E1AD6FEFCED64;
 			remoteInfo = WXLibSwift;
 		};
+		49D3BA83ED18FF5711315788C16A94DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3DC2BE8D75AA6A0E1D2E1AD6FEFCED64;
+			remoteInfo = WXLibSwift;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0E919B34AD86CE8505EDE46B3A34B8EF /* Pods-WXLibSwift_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WXLibSwift_Example.release.xcconfig"; sourceTree = "<group>"; };
+		08F85AA0D1DE4A4805227CC4092CD447 /* Pods-ttt-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ttt-acknowledgements.plist"; sourceTree = "<group>"; };
 		16AE35D12AAE252B71F5651E4DC01E65 /* WXLibSwift */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WXLibSwift; path = WXLibSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1EC687E073714408424D0B6A3D83DF55 /* Pods-WXLibSwift_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WXLibSwift_Example-dummy.m"; sourceTree = "<group>"; };
-		222F7B6D1970D5DF6B66F4605CECD3B4 /* Pods-WXLibSwift_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WXLibSwift_Example.modulemap"; sourceTree = "<group>"; };
 		25DE43E958810DF7FEC223AE9B8F982D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		27EC2E3CE565E29983E5C1B23B02C5C4 /* WXLibSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WXLibSwift-prefix.pch"; sourceTree = "<group>"; };
-		2A023AB89136476B1F277AC6EF4A39E2 /* Pods-WXLibSwift_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WXLibSwift_Example-Info.plist"; sourceTree = "<group>"; };
-		452EA86738477022A14018680D7638DA /* Pods-ttt-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ttt-acknowledgements.plist"; sourceTree = "<group>"; };
-		500EEE9C0B99E5AA389D6B782C1A11CA /* Pods-ttt-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ttt-dummy.m"; sourceTree = "<group>"; };
+		30E089AFEFDA29A26A12CD10246D8C85 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/WebKit.framework; sourceTree = DEVELOPER_DIR; };
+		345D61036CCF96D3B60B851E0CCE2BAB /* Pods-WXLibSwift_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WXLibSwift_Example.modulemap"; sourceTree = "<group>"; };
+		43AAEC53A777183A365EEE8684FD31D2 /* Pods-WXLibSwift_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WXLibSwift_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		44815E6FF8C052B33E97861F508E0332 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		531C22CA62364106EB489A7C898B6FFD /* Pods-WXLibSwift_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WXLibSwift_Example-Info.plist"; sourceTree = "<group>"; };
+		557455AD95010007C353D6EBD55DA776 /* Pods-ttt-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ttt-Info.plist"; sourceTree = "<group>"; };
 		5688265A250D7363CFF30D375559ECBB /* WXLibSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WXLibSwift.debug.xcconfig; sourceTree = "<group>"; };
-		57005C852149E884C604224C215956E5 /* Pods-WXLibSwift_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WXLibSwift_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		589D442FBD50A6198A2737755F857487 /* WXApiObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApiObject.h; path = WXLibSwift/Classes/WXApiObject.h; sourceTree = "<group>"; };
+		5941404535F6C7BC59FAE482F8F3D131 /* Pods-ttt.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ttt.release.xcconfig"; sourceTree = "<group>"; };
 		5B33601561C765522A232521B1CB873C /* Pods-ttt */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ttt"; path = Pods_ttt.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CCC06E0C4D9CDBBA18B1DFF8D7FAAFE /* Pods-WXLibSwift_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-WXLibSwift_Example"; path = Pods_WXLibSwift_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A1E44D68AF41A07D45AF7676D078AA9 /* WXLibSwift-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "WXLibSwift-xcframeworks.sh"; sourceTree = "<group>"; };
 		6FA97FDD710CA51A9431D1D1846ABAE2 /* WXLibSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WXLibSwift-umbrella.h"; sourceTree = "<group>"; };
-		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		7A246431E5DC14C612095828944520E0 /* Pods-ttt.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ttt.release.xcconfig"; sourceTree = "<group>"; };
+		71BEFB8855069675A5E8AF77ACDE4714 /* Pods-WXLibSwift_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WXLibSwift_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		78F3E29589BBF17C182C9EDEF9097315 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
 		84EC2FD538D8723CD27042504B0F60DA /* WXApi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApi.h; path = WXLibSwift/Classes/WXApi.h; sourceTree = "<group>"; };
 		877EBF603B8B6FCC8FDFA7719914479C /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = WXLibSwift/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		8DCAF59297E6074CAC968C960B4C7066 /* Pods-ttt-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ttt-umbrella.h"; sourceTree = "<group>"; };
 		91B20D61684F9392229030038B4E13E6 /* WXLibSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WXLibSwift-dummy.m"; sourceTree = "<group>"; };
+		91C65190AD88B19B04B320B885230243 /* Pods-WXLibSwift_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WXLibSwift_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		92758B08FF1B2A7993615EBE29BB8CAC /* WXLibSwift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WXLibSwift-Info.plist"; sourceTree = "<group>"; };
 		972362C9271EDCBA60A0382409C9A2C6 /* WechatOpenSDK-XCFramework.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = "WechatOpenSDK-XCFramework.xcframework"; path = "WXLibSwift/Frameworks/Pay/WechatOpenSDK-XCFramework.xcframework"; sourceTree = "<group>"; };
+		98ECE0D6EF5616C5A546DE707B1D0BE8 /* Pods-ttt-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ttt-dummy.m"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9DC37A787F79E4E703AA10F0D78D2B34 /* WXLibSwift.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = WXLibSwift.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A00EC74F79EC4BAD2D702DB49FA08899 /* WXLibSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WXLibSwift.modulemap; sourceTree = "<group>"; };
-		A2531141491A4F0AB67617EF01F08206 /* Pods-WXLibSwift_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WXLibSwift_Example-umbrella.h"; sourceTree = "<group>"; };
 		A65FA33F74801B7F00461C9B1A7C2F72 /* WXLibSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WXLibSwift.release.xcconfig; sourceTree = "<group>"; };
-		BF419E930419EAABDC23265CC0F4DAFE /* Pods-WXLibSwift_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WXLibSwift_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		C0C2784DFA2E6502FE8736BFF4FBDFE7 /* Pods-ttt-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ttt-umbrella.h"; sourceTree = "<group>"; };
-		CF68A04C2500F3E6E3D19B6B423935C7 /* Pods-ttt.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ttt.modulemap"; sourceTree = "<group>"; };
+		B34047B1905F21D3FF89056A19480F3A /* Pods-ttt.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ttt.modulemap"; sourceTree = "<group>"; };
+		B426C2EAFF8D9D649A8E640CC5B643E1 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		BB5D8B51FFBE0D36A420C2010C3D9E86 /* Pods-WXLibSwift_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WXLibSwift_Example.release.xcconfig"; sourceTree = "<group>"; };
+		C4B0C303D2E9A4C6A680517D23CEEA8A /* Pods-WXLibSwift_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WXLibSwift_Example-umbrella.h"; sourceTree = "<group>"; };
+		CEDC40DA187FABA041E618719B76A58A /* Pods-WXLibSwift_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WXLibSwift_Example-frameworks.sh"; sourceTree = "<group>"; };
 		D0E9AE07FB3F8EC1800158353A797DA4 /* WXLibSwift.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXLibSwift.h; path = WXLibSwift/Classes/WXLibSwift.h; sourceTree = "<group>"; };
 		D683EE99C1E467605B8A66A10EE92DA0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		DAF9D0557EAAD0F260FA955C20F93108 /* Pods-WXLibSwift_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WXLibSwift_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		DDED3EADD35AE12059664E69A372DA19 /* Pods-ttt.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ttt.debug.xcconfig"; sourceTree = "<group>"; };
-		E933BF47143D4FAB76D426FDD3F7712A /* Pods-ttt-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ttt-Info.plist"; sourceTree = "<group>"; };
-		EE4654781C778F05B97978CB9DC85F49 /* Pods-ttt-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ttt-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E358411A0ECD6D55F4F3A1700DE098A7 /* Pods-ttt-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ttt-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EF668CD4A13BCBFAD8D5D99AAFF36925 /* Pods-WXLibSwift_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WXLibSwift_Example-dummy.m"; sourceTree = "<group>"; };
+		EFF1A6239DB4C4AC7EDA328A37026DA0 /* Pods-ttt.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ttt.debug.xcconfig"; sourceTree = "<group>"; };
 		FC7F5947C3CF7093BA10728579262524 /* WechatAuthSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WechatAuthSDK.h; path = WXLibSwift/Classes/WechatAuthSDK.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -83,19 +97,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		289973615395B9EA8E1C5ECD0152A6A5 /* Frameworks */ = {
+		210449C5F1F1F236A7E325CE60E5B7FE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF8BF9E4FB5C90740DF27996C7AF05D4 /* Foundation.framework in Frameworks */,
+				D8FF192B384D53D1A3061ACDF404C6F1 /* CoreGraphics.framework in Frameworks */,
+				2EBB1E0FF99C8DFE7CE39ACAB50E7A19 /* Foundation.framework in Frameworks */,
+				CB33F47E575C4BBDFA22D8A426140014 /* Security.framework in Frameworks */,
+				E944DFC57CE37B31406A03CF078939E0 /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5FEF2F188CA1B68926EB2C975B835D04 /* Frameworks */ = {
+		67654215FFABE8C230EFCB514E198A4F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				178B58C5FCE07A94BBB754B7F7D920AB /* Foundation.framework in Frameworks */,
+				66F6CDF5B7BEDAAD209350EEEE762B81 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -110,15 +127,6 @@
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		19E397E8E8DCBE37B3522FB1F8B262C9 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				75EE82ADC838834CF577034654D56A65 /* Pods-ttt */,
-				E9B90B1B198BA38AE595DF302E52986D /* Pods-WXLibSwift_Example */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
 		571B7FD7ABEC085B959BEE2AEFCCDE98 /* Core */ = {
 			isa = PBXGroup;
 			children = (
@@ -129,14 +137,6 @@
 				D0E9AE07FB3F8EC1800158353A797DA4 /* WXLibSwift.h */,
 			);
 			name = Core;
-			sourceTree = "<group>";
-		};
-		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
-			);
-			name = iOS;
 			sourceTree = "<group>";
 		};
 		67C6C98914F7FD9A6A422427EB588163 /* Frameworks */ = {
@@ -159,17 +159,53 @@
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		75EE82ADC838834CF577034654D56A65 /* Pods-ttt */ = {
+		8FD57E6C4A11C7826CC72A86B2DEFAF9 /* Pods-WXLibSwift_Example */ = {
 			isa = PBXGroup;
 			children = (
-				CF68A04C2500F3E6E3D19B6B423935C7 /* Pods-ttt.modulemap */,
-				EE4654781C778F05B97978CB9DC85F49 /* Pods-ttt-acknowledgements.markdown */,
-				452EA86738477022A14018680D7638DA /* Pods-ttt-acknowledgements.plist */,
-				500EEE9C0B99E5AA389D6B782C1A11CA /* Pods-ttt-dummy.m */,
-				E933BF47143D4FAB76D426FDD3F7712A /* Pods-ttt-Info.plist */,
-				C0C2784DFA2E6502FE8736BFF4FBDFE7 /* Pods-ttt-umbrella.h */,
-				DDED3EADD35AE12059664E69A372DA19 /* Pods-ttt.debug.xcconfig */,
-				7A246431E5DC14C612095828944520E0 /* Pods-ttt.release.xcconfig */,
+				345D61036CCF96D3B60B851E0CCE2BAB /* Pods-WXLibSwift_Example.modulemap */,
+				43AAEC53A777183A365EEE8684FD31D2 /* Pods-WXLibSwift_Example-acknowledgements.markdown */,
+				71BEFB8855069675A5E8AF77ACDE4714 /* Pods-WXLibSwift_Example-acknowledgements.plist */,
+				EF668CD4A13BCBFAD8D5D99AAFF36925 /* Pods-WXLibSwift_Example-dummy.m */,
+				CEDC40DA187FABA041E618719B76A58A /* Pods-WXLibSwift_Example-frameworks.sh */,
+				531C22CA62364106EB489A7C898B6FFD /* Pods-WXLibSwift_Example-Info.plist */,
+				C4B0C303D2E9A4C6A680517D23CEEA8A /* Pods-WXLibSwift_Example-umbrella.h */,
+				91C65190AD88B19B04B320B885230243 /* Pods-WXLibSwift_Example.debug.xcconfig */,
+				BB5D8B51FFBE0D36A420C2010C3D9E86 /* Pods-WXLibSwift_Example.release.xcconfig */,
+			);
+			name = "Pods-WXLibSwift_Example";
+			path = "Target Support Files/Pods-WXLibSwift_Example";
+			sourceTree = "<group>";
+		};
+		91CA420551603C42A35241A6AF3BB125 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				78F3E29589BBF17C182C9EDEF9097315 /* CoreGraphics.framework */,
+				44815E6FF8C052B33E97861F508E0332 /* Foundation.framework */,
+				B426C2EAFF8D9D649A8E640CC5B643E1 /* Security.framework */,
+				30E089AFEFDA29A26A12CD10246D8C85 /* WebKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				91CA420551603C42A35241A6AF3BB125 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C7E2B7F2950211B81F34995EA816F2E0 /* Pods-ttt */ = {
+			isa = PBXGroup;
+			children = (
+				B34047B1905F21D3FF89056A19480F3A /* Pods-ttt.modulemap */,
+				E358411A0ECD6D55F4F3A1700DE098A7 /* Pods-ttt-acknowledgements.markdown */,
+				08F85AA0D1DE4A4805227CC4092CD447 /* Pods-ttt-acknowledgements.plist */,
+				98ECE0D6EF5616C5A546DE707B1D0BE8 /* Pods-ttt-dummy.m */,
+				557455AD95010007C353D6EBD55DA776 /* Pods-ttt-Info.plist */,
+				8DCAF59297E6074CAC968C960B4C7066 /* Pods-ttt-umbrella.h */,
+				EFF1A6239DB4C4AC7EDA328A37026DA0 /* Pods-ttt.debug.xcconfig */,
+				5941404535F6C7BC59FAE482F8F3D131 /* Pods-ttt.release.xcconfig */,
 			);
 			name = "Pods-ttt";
 			path = "Target Support Files/Pods-ttt";
@@ -180,18 +216,19 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				1340A651228953013699DB00AFCB5AF7 /* Development Pods */,
-				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */,
 				F937DDB6A0640320694C22E67B568DF9 /* Products */,
-				19E397E8E8DCBE37B3522FB1F8B262C9 /* Targets Support Files */,
+				E432910059EDFE45945AA94DBF9ED1BA /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+		E432910059EDFE45945AA94DBF9ED1BA /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				578452D2E740E91742655AC8F1636D1F /* iOS */,
+				C7E2B7F2950211B81F34995EA816F2E0 /* Pods-ttt */,
+				8FD57E6C4A11C7826CC72A86B2DEFAF9 /* Pods-WXLibSwift_Example */,
 			);
-			name = Frameworks;
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		E4B72CFCED0484959E480C4FB93F0B1D /* Pod */ = {
@@ -210,22 +247,6 @@
 				67C6C98914F7FD9A6A422427EB588163 /* Frameworks */,
 			);
 			name = Pay;
-			sourceTree = "<group>";
-		};
-		E9B90B1B198BA38AE595DF302E52986D /* Pods-WXLibSwift_Example */ = {
-			isa = PBXGroup;
-			children = (
-				222F7B6D1970D5DF6B66F4605CECD3B4 /* Pods-WXLibSwift_Example.modulemap */,
-				BF419E930419EAABDC23265CC0F4DAFE /* Pods-WXLibSwift_Example-acknowledgements.markdown */,
-				57005C852149E884C604224C215956E5 /* Pods-WXLibSwift_Example-acknowledgements.plist */,
-				1EC687E073714408424D0B6A3D83DF55 /* Pods-WXLibSwift_Example-dummy.m */,
-				2A023AB89136476B1F277AC6EF4A39E2 /* Pods-WXLibSwift_Example-Info.plist */,
-				A2531141491A4F0AB67617EF01F08206 /* Pods-WXLibSwift_Example-umbrella.h */,
-				DAF9D0557EAAD0F260FA955C20F93108 /* Pods-WXLibSwift_Example.debug.xcconfig */,
-				0E919B34AD86CE8505EDE46B3A34B8EF /* Pods-WXLibSwift_Example.release.xcconfig */,
-			);
-			name = "Pods-WXLibSwift_Example";
-			path = "Target Support Files/Pods-WXLibSwift_Example";
 			sourceTree = "<group>";
 		};
 		ECE18F6EF5E5865D00C9BEA189ABB18D /* Support Files */ = {
@@ -265,23 +286,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		66839F13AE12C04888BD6E02B0890FF1 /* Headers */ = {
+		4C0D23946900571CE0F969768050DABC /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				16396ED763FAC280C88340DDFDBBC39D /* WechatAuthSDK.h in Headers */,
-				BEB5B53B6ADC652E50441844C4B2C0D9 /* WXApi.h in Headers */,
-				E00E8BDD60ACCFF67913EA173CCDDE48 /* WXApiObject.h in Headers */,
-				F851C83D885DC41C9BEF2F6EDE0FF454 /* WXLibSwift.h in Headers */,
-				EBBAEE9DCA547D529B37E178A23DE32F /* WXLibSwift-umbrella.h in Headers */,
+				6D2CED835B4C0A8A596EC5F7B84405DA /* Pods-WXLibSwift_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		67293F6CEDBF23DDFDB82892D631BE6B /* Headers */ = {
+		D42B0C0F55F079BC1731373757BB2600 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				552A9212F445CA7603459609E21DF32A /* Pods-WXLibSwift_Example-umbrella.h in Headers */,
+				91B1C200884C1CAEDBBAC442BE6511C4 /* WechatAuthSDK.h in Headers */,
+				DDE172CB51E7124D13F7A9AFAFA438CE /* WXApi.h in Headers */,
+				EEBFF61C08D16B4AA81FB9B6AA7E615E /* WXApiObject.h in Headers */,
+				AD44173117E026DBC9A3D16CBA045AB8 /* WXLibSwift.h in Headers */,
+				0B230C68001BF43F173BABAAE414F466 /* WXLibSwift-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,16 +311,17 @@
 /* Begin PBXNativeTarget section */
 		028BD4212EDBCCEA09429DE2A966562F /* Pods-WXLibSwift_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5D87C26E2EB754987418C5B2D0D94D54 /* Build configuration list for PBXNativeTarget "Pods-WXLibSwift_Example" */;
+			buildConfigurationList = 06C53E8D4C6FEA4B5888D26263508DE3 /* Build configuration list for PBXNativeTarget "Pods-WXLibSwift_Example" */;
 			buildPhases = (
-				67293F6CEDBF23DDFDB82892D631BE6B /* Headers */,
-				E4CE1790DBBC122BA2B226DE27B351E5 /* Sources */,
-				289973615395B9EA8E1C5ECD0152A6A5 /* Frameworks */,
-				9FD9EAB7BA69AD2DA5A5DA390E81AAC9 /* Resources */,
+				4C0D23946900571CE0F969768050DABC /* Headers */,
+				E7431A3F9F0880EE4AAE07D46F85744A /* Sources */,
+				67654215FFABE8C230EFCB514E198A4F /* Frameworks */,
+				06325E2697904B0C69E76C474D586EE6 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				C66D554C8787D303F01C4ED445777717 /* PBXTargetDependency */,
 			);
 			name = "Pods-WXLibSwift_Example";
 			productName = Pods_WXLibSwift_Example;
@@ -308,13 +330,13 @@
 		};
 		3DC2BE8D75AA6A0E1D2E1AD6FEFCED64 /* WXLibSwift */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 49841ECE8317FCEB74C9ADDE8393B592 /* Build configuration list for PBXNativeTarget "WXLibSwift" */;
+			buildConfigurationList = E81936BF2FCE4098AA166FD8D6BB1281 /* Build configuration list for PBXNativeTarget "WXLibSwift" */;
 			buildPhases = (
-				66839F13AE12C04888BD6E02B0890FF1 /* Headers */,
-				6FB93050B017175AABCC98312A2018AD /* [CP] Copy XCFrameworks */,
-				6124C222156BED35D6EC1F7B5FBB6776 /* Sources */,
-				5FEF2F188CA1B68926EB2C975B835D04 /* Frameworks */,
-				256A99C8EB5EFE1E2E640990DE3DE4BB /* Resources */,
+				D42B0C0F55F079BC1731373757BB2600 /* Headers */,
+				2ED4FD3B523B83C95A03601C17D4C567 /* [CP] Copy XCFrameworks */,
+				7DC266C5FC12CE3A2D0CFB31A5D3FAE2 /* Sources */,
+				210449C5F1F1F236A7E325CE60E5B7FE /* Frameworks */,
+				C592DB3159A1A0088E5EA823219A3F31 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -362,6 +384,7 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			minimizedProjectReferenceProxies = 0;
 			productRefGroup = F937DDB6A0640320694C22E67B568DF9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -374,6 +397,13 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		06325E2697904B0C69E76C474D586EE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		11C50CDFE44119F5738B7140E0A7AB80 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -381,14 +411,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		256A99C8EB5EFE1E2E640990DE3DE4BB /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9FD9EAB7BA69AD2DA5A5DA390E81AAC9 /* Resources */ = {
+		C592DB3159A1A0088E5EA823219A3F31 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -398,7 +421,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		6FB93050B017175AABCC98312A2018AD /* [CP] Copy XCFrameworks */ = {
+		2ED4FD3B523B83C95A03601C17D4C567 /* [CP] Copy XCFrameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -427,20 +450,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6124C222156BED35D6EC1F7B5FBB6776 /* Sources */ = {
+		7DC266C5FC12CE3A2D0CFB31A5D3FAE2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F24FAFDE4D4B1EA0719E91ADB2C1EFAB /* ReplaceMe.swift in Sources */,
-				F2F8B1918067916E1E9AB6C121D381BB /* WXLibSwift-dummy.m in Sources */,
+				14832FE8573448450F251952AAFC8922 /* ReplaceMe.swift in Sources */,
+				ECA43FDD8A622B96105B688D7D0BA970 /* WXLibSwift-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E4CE1790DBBC122BA2B226DE27B351E5 /* Sources */ = {
+		E7431A3F9F0880EE4AAE07D46F85744A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				29B227A570BDD41B31F697777F8D27CA /* Pods-WXLibSwift_Example-dummy.m in Sources */,
+				D1B7DCC3D8A99D2355B707F81A5CA37C /* Pods-WXLibSwift_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -453,10 +476,16 @@
 			target = 3DC2BE8D75AA6A0E1D2E1AD6FEFCED64 /* WXLibSwift */;
 			targetProxy = 3678B28FF8599BC0FA1FEF9CE936297D /* PBXContainerItemProxy */;
 		};
+		C66D554C8787D303F01C4ED445777717 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WXLibSwift;
+			target = 3DC2BE8D75AA6A0E1D2E1AD6FEFCED64 /* WXLibSwift */;
+			targetProxy = 49D3BA83ED18FF5711315788C16A94DA /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1B3F6A8BA4D326AA57BFCCA6FED8B6BD /* Debug */ = {
+		2028DAFE95650D844CAF38B01D6EA43F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5688265A250D7363CFF30D375559ECBB /* WXLibSwift.debug.xcconfig */;
 			buildSettings = {
@@ -475,7 +504,6 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/WXLibSwift/WXLibSwift.modulemap";
 				PRODUCT_MODULE_NAME = WXLibSwift;
 				PRODUCT_NAME = WXLibSwift;
@@ -489,43 +517,9 @@
 			};
 			name = Debug;
 		};
-		2DA90E7BC8D51F66FD0FC1CF3F6812F8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A65FA33F74801B7F00461C9B1A7C2F72 /* WXLibSwift.release.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/WXLibSwift/WXLibSwift-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/WXLibSwift/WXLibSwift-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/WXLibSwift/WXLibSwift.modulemap";
-				PRODUCT_MODULE_NAME = WXLibSwift;
-				PRODUCT_NAME = WXLibSwift;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		37FEC4953D2B9670F01372D151DE4B7A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7A246431E5DC14C612095828944520E0 /* Pods-ttt.release.xcconfig */;
+			baseConfigurationReference = 5941404535F6C7BC59FAE482F8F3D131 /* Pods-ttt.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
@@ -551,6 +545,73 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7220BE83625B1F0DC105FF7A7DA0C06B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91C65190AD88B19B04B320B885230243 /* Pods-WXLibSwift_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WXLibSwift_Example/Pods-WXLibSwift_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WXLibSwift_Example/Pods-WXLibSwift_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7E98392C375283BBD7FC9DF653B71324 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A65FA33F74801B7F00461C9B1A7C2F72 /* WXLibSwift.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WXLibSwift/WXLibSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WXLibSwift/WXLibSwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WXLibSwift/WXLibSwift.modulemap";
+				PRODUCT_MODULE_NAME = WXLibSwift;
+				PRODUCT_NAME = WXLibSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -624,41 +685,6 @@
 			};
 			name = Debug;
 		};
-		9A02565D8A6ECAB68CDAF2C8B5C243EE /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0E919B34AD86CE8505EDE46B3A34B8EF /* Pods-WXLibSwift_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-WXLibSwift_Example/Pods-WXLibSwift_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-WXLibSwift_Example/Pods-WXLibSwift_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		9E406C6AAF85E580207CD97B0044DEAB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -723,7 +749,7 @@
 		};
 		A195DD0975D16BBB064C13363C367826 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DDED3EADD35AE12059664E69A372DA19 /* Pods-ttt.debug.xcconfig */;
+			baseConfigurationReference = EFF1A6239DB4C4AC7EDA328A37026DA0 /* Pods-ttt.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
@@ -755,9 +781,9 @@
 			};
 			name = Debug;
 		};
-		F5C79052E653081051A40BA02C20FCEF /* Debug */ = {
+		B487B2AACDF393C51BCDFE3C2732AA19 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DAF9D0557EAAD0F260FA955C20F93108 /* Pods-WXLibSwift_Example.debug.xcconfig */;
+			baseConfigurationReference = BB5D8B51FFBE0D36A420C2010C3D9E86 /* Pods-WXLibSwift_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
@@ -784,14 +810,24 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		06C53E8D4C6FEA4B5888D26263508DE3 /* Build configuration list for PBXNativeTarget "Pods-WXLibSwift_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7220BE83625B1F0DC105FF7A7DA0C06B /* Debug */,
+				B487B2AACDF393C51BCDFE3C2732AA19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -801,29 +837,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		49841ECE8317FCEB74C9ADDE8393B592 /* Build configuration list for PBXNativeTarget "WXLibSwift" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1B3F6A8BA4D326AA57BFCCA6FED8B6BD /* Debug */,
-				2DA90E7BC8D51F66FD0FC1CF3F6812F8 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		5D87C26E2EB754987418C5B2D0D94D54 /* Build configuration list for PBXNativeTarget "Pods-WXLibSwift_Example" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F5C79052E653081051A40BA02C20FCEF /* Debug */,
-				9A02565D8A6ECAB68CDAF2C8B5C243EE /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		B0886A13C7850E7B5BE8333214A75484 /* Build configuration list for PBXNativeTarget "Pods-ttt" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A195DD0975D16BBB064C13363C367826 /* Debug */,
 				37FEC4953D2B9670F01372D151DE4B7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E81936BF2FCE4098AA166FD8D6BB1281 /* Build configuration list for PBXNativeTarget "WXLibSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2028DAFE95650D844CAF38B01D6EA43F /* Debug */,
+				7E98392C375283BBD7FC9DF653B71324 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

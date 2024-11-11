@@ -11,7 +11,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  WXLibSwift: 0ac099de84d1eff33e4bdd326f9f7aba4e966ca9
+  WXLibSwift: d8b214a20b2dc20368bc747efef288b47ecb0eac
 
 PODFILE CHECKSUM: 5949ecceffa20d26faae2227bdde60060ac5e7de
 
